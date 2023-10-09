@@ -3,11 +3,11 @@ import function2 from "../improvement-2";
 import function3 from "../improvement-3";
 
 const items = [
-  {name: 'Carrot', type: 'Food'},
-  {name: 'Mercedes', type: 'Car'},
-  {name: 'Tomato', type: 'Food'},
-  {name: 'Corn', type: 'Food'},
-  {name: 'BMW', type: 'Car'}
+  { name: "Carrot", type: "Food" },
+  { name: "Mercedes", type: "Car" },
+  { name: "Tomato", type: "Food" },
+  { name: "Corn", type: "Food" },
+  { name: "BMW", type: "Car" },
 ];
 
 const values = [2, 45, 6, 78, 25];
@@ -21,9 +21,9 @@ describe("IMPROVEMENT", () => {
   test("function 2 should still work", () => {
     expect(function2(items).length).toBe(3);
     expect(function2(items)).toStrictEqual([
-      {name: 'Carrot', type: 'Food'},  
-      {name: 'Tomato', type: 'Food'},
-      {name: 'Corn', type: 'Food'}
+      { name: "Carrot", type: "Food" },
+      { name: "Tomato", type: "Food" },
+      { name: "Corn", type: "Food" },
     ]);
   });
 
