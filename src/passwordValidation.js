@@ -45,18 +45,3 @@ export default function isValidPassword(password = "") {
   // No ascending/descending sequence found
   return true;
 }
-
-//////////////////////////////////////
-
-// The password is valid.
-
-// * * * YOUR CODE GOES IN HERE ... * * *
-/*
- * if (password is not exactly 10 digits or characters...) {
- *   return ...;
- * }
- *
- * if (is not composed by digits and numbers) {
- *   return ...;
- * }
- */
