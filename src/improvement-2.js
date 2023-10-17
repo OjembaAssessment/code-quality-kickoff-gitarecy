@@ -6,20 +6,6 @@
 
 // FUNCTION 2
 export default function findFoodItems(items) {
-  // const processedItems = [];
-  // for (let i = 0; i < items.length; i++) {
-  //   const item = items[i];
-  //   if (item.type === "Food") {
-  //     processedItems.push(item);
-  //   }
-  // }
-  const arr = items.filter((item) => item.type === "Food");
-  return arr;
+  //filtering through array to get one who's type is Food
+  return items.filter((item) => item.type === "Food");
 }
-
-// const items = [
-//   { type: "Food", name: "Apple" },
-//   { type: "Drink", name: "Water" },
-//   { type: "Food", name: "Banana" },
-// ];
-// console.log(findFoodItems(items));
